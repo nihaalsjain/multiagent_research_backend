@@ -12,6 +12,10 @@ START → research_planner → web_searcher ─┐
                                           → analyst → report_generator → END
 ```
 
+### Workflow Graph
+
+![LangGraph Workflow](assets/workflow.png)
+
 | Node | Description |
 |------|-------------|
 | `research_planner` | Plans web and wiki search queries for the topic |
